@@ -1,0 +1,6 @@
+@FullBackend.Web_HostAddress = http://localhost:5008
+
+GET {{FullBackend.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
