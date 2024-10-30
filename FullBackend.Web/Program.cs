@@ -8,8 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("MovieDb"));
     
-    builder.Services.AddScoped<IMovieRepository, MovieRepository>();
-    builder.Services.AddScoped<MovieService>();
+    // builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+    // builder.Services.AddScoped<MovieService>();
     
     builder.Services.AddControllers();
 }
