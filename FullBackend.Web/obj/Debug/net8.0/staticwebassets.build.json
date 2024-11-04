@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ezDhl4cVp7pLr9m8v4O+qZ+FUFv0D7YGE2fLWux/AGo=",
+  "Source": "FullBackend.Web",
+  "BasePath": "_content/FullBackend.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
