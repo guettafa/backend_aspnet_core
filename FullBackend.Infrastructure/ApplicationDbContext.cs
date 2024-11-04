@@ -5,5 +5,5 @@ namespace FullBackend.Infrastructure;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {
-    public DbSet<Movie> Movies { get; set; } // Get all movies
+    public DbSet<Movie> Movies { get; init; }
 }
